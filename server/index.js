@@ -10,6 +10,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { register } from "./controllers/auth.js";
 
+console.log("Hello world!");
+
 
 /* CONFIGURATIONS */
 const __filename = fileURLToPath(import.meta.url);
